@@ -5,8 +5,8 @@
       <classes>
       <class name="Script.Main">
        <class name="Pages.LogIn">
-        <class name="Pages.Main">
-         <class name="Pages.Main">
+        <class name="Pages.Register">
+         <class name="Pages.Search">
       </classes>
   </test> <!-- Test -->    
    
