@@ -3,10 +3,10 @@
 <suite name="Demo">
   <test name="Test Cases">
       <classes>
-      <class name="Script.Main"/>
-       <class name="Pages.LogIn"/>
-        <class name="Pages.Main"/>
-         <class name="Pages.Main"/>
+      <class name="Script.Main">
+       <class name="Pages.LogIn">
+        <class name="Pages.Main">
+         <class name="Pages.Main">
       </classes>
   </test> <!-- Test -->    
    
