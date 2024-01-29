@@ -35,8 +35,16 @@ public class Main
 	    {	
 			register=new Register(driver);
 			register.Click_On_Register();
+		}
+		@Test
+		public void Testng1() throws InterruptedException 
+		{
 			login= new LogIn(driver);
 			login.Click_On_Log_In();
+		}
+		@Test
+		public void Testng2() throws InterruptedException 
+		{
 			add= new Search(driver);
 			add.Click_On_Add();
 		}
