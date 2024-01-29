@@ -9,8 +9,4 @@
          <class name="Pages.Search"></class>
       </classes>
   </test> <!-- Test -->    
-   
-  
-     
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+   </suite> <!-- Suite -->
