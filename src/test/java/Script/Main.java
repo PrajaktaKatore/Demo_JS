@@ -2,6 +2,7 @@ package Script;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -23,7 +24,12 @@ public class Main
 		public void TestSetUp() throws InterruptedException
 		{
 			//System.setProperty("webdriver.chrome.driver","C:/Users/prajaktaka/Desktop/Oxygen/Driver/chrome-win64/chrome.exe");
-			WebDriverManager.chromedriver().setup();
+			//WebDriverManager.chromedriver().setup();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--headless=new");
+
+			
+			
 			driver = new ChromeDriver();
 			
 			driver.get("https://demo.nopcommerce.com/");	
