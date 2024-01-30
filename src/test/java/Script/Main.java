@@ -23,10 +23,9 @@ public class Main
 		@BeforeTest
 		public void TestSetUp() throws InterruptedException
 		{
-			//System.setProperty("webdriver.chrome.driver","C:/Users/prajaktaka/Desktop/Oxygen/Driver/chrome-win64/chrome.exe");
+			System.setProperty("webdriver.chrome.driver","E:/Selenium/Chrome/chromedriver.exe");
 			//WebDriverManager.chromedriver().setup();
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--headless=new");
+			
 
 			
 			
