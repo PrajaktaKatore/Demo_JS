@@ -22,8 +22,8 @@ public class Main
 		@BeforeTest
 		public void TestSetUp() throws InterruptedException
 		{
-			System.setProperty("webdriver.chrome.driver","C:/Users/prajaktaka/Desktop/Oxygen/Driver/chrome-win64/chrome.exe");
-			//WebDriverManager.chromedriver().setup();
+			//System.setProperty("webdriver.chrome.driver","C:/Users/prajaktaka/Desktop/Oxygen/Driver/chrome-win64/chrome.exe");
+			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 			
 			driver.get("https://demo.nopcommerce.com/");	
