@@ -23,8 +23,8 @@ public class Main
 		@BeforeTest
 		public void TestSetUp() throws InterruptedException
 		{
-			System.setProperty("webdriver.chrome.driver","E:/Selenium/Chrome/chromedriver.exe");
-			//WebDriverManager.chromedriver().setup();
+			//System.setProperty("webdriver.chrome.driver","E:/Selenium/Chrome/chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
 			
 
 			
