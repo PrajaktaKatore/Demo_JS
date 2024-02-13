@@ -24,7 +24,8 @@ public class Main
 		public void TestSetUp() throws InterruptedException
 		{
 			//System.setProperty("webdriver.chrome.driver","E:/Selenium/Chrome/chromedriver.exe");
-			WebDriverManager.chromedriver().setup();
+			//WebDriverManager.chromedriver().setup();
+			WebDriverManager.chromiumdriver().setup();
 			
 			
 			driver = new ChromeDriver();
