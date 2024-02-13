@@ -26,8 +26,6 @@ public class Main
 			//System.setProperty("webdriver.chrome.driver","E:/Selenium/Chrome/chromedriver.exe");
 			WebDriverManager.chromedriver().setup();
 			
-
-			
 			
 			driver = new ChromeDriver();
 			
