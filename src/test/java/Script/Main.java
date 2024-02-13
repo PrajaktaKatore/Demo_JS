@@ -1,8 +1,8 @@
 package Script;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -25,10 +25,9 @@ public class Main
 		{
 			//System.setProperty("webdriver.chrome.driver","E:/Selenium/Chrome/chromedriver.exe");
 			//WebDriverManager.chromedriver().setup();
-			WebDriverManager.chromiumdriver().setup();
+			WebDriverManager.edgedriver().setup();
 			
-			
-			driver = new ChromeDriver();
+			driver = new EdgeDriver();
 			
 			driver.get("https://demo.nopcommerce.com/");	
 			driver.manage().window().maximize();
