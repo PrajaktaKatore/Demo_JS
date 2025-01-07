@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Demo" duration-ms="43440" started-at="2024-02-27T11:18:57 IST" finished-at="2024-02-27T11:19:40 IST">
+    <groups>
+    </groups>
+    <test name="Test Cases" duration-ms="43440" started-at="2024-02-27T11:18:57 IST" finished-at="2024-02-27T11:19:40 IST">
+      <class name="Script.Main">
+        <test-method status="PASS" signature="TestSetUp()[pri:0, instance:Script.Main@5d76b067]" name="TestSetUp" is-config="true" duration-ms="25219" started-at="2024-02-27T11:18:57 IST" finished-at="2024-02-27T11:19:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetUp -->
+        <test-method status="PASS" signature="Testng()[pri:0, instance:Script.Main@5d76b067]" name="Testng" duration-ms="8589" started-at="2024-02-27T11:19:22 IST" finished-at="2024-02-27T11:19:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testng -->
+        <test-method status="PASS" signature="Testng1()[pri:0, instance:Script.Main@5d76b067]" name="Testng1" duration-ms="4934" started-at="2024-02-27T11:19:31 IST" finished-at="2024-02-27T11:19:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testng1 -->
+        <test-method status="PASS" signature="Testng2()[pri:0, instance:Script.Main@5d76b067]" name="Testng2" duration-ms="4653" started-at="2024-02-27T11:19:36 IST" finished-at="2024-02-27T11:19:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testng2 -->
+      </class> <!-- Script.Main -->
+    </test> <!-- Test Cases -->
+  </suite> <!-- Demo -->
+</testng-results>
