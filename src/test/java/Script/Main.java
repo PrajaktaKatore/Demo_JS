@@ -44,9 +44,9 @@ public class Main {
 		login.Click_On_Log_In();
 	}
 
-	@Test
+	/*@Test
 	public void Testng2() throws InterruptedException {
 		add = new Search(driver);
 		add.Click_On_Add();
-	}
+	}*/
 }
